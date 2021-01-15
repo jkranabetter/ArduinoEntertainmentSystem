@@ -12,3 +12,6 @@ EEPROM: Long term variables (such as high score) can be stored here as the EEPRO
 VGA Shield PCB
 The shield was designed using Fritzing. All the chip components are 1206 size, and JST connectors are used for board to case connections. All footprints were found in the fritzing library or online.
 
+![Screenshot](digibird.jpg)
+
+![Screenshot](gameplay.jpg)
