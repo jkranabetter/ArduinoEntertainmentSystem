@@ -14,4 +14,18 @@ The shield was designed using Fritzing. All the chip components are 1206 size, a
 
 ![Screenshot](digibird.jpg)
 
+DigiBird Game Operation
+Fly through a maze of ever increasing difficulty and find friends on the way, be fast and precise to achieve the high score.
+• Bird ascends when button is held down
+• Bird descends when button is released
+• Walls travel from right to left
+• Hole size is generally decreased as game progresses
+• A sound is made when the bird safely flies through a wall
+• The score is incremented by 1 for every wall safely passed
+• The current score is displayed once every 5 walls
+• As the player progresses up to 5 birds will follow the main bird
+• If the main bird comes in contact with a wall the game ends
+• The achieved score and high score are displayed
+• At end screen player can push button to play again
+
 ![Screenshot](gameplay.jpg)
