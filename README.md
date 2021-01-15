@@ -11,9 +11,6 @@ The program is stored in the flash memory. Since SRAM is valuable in this projec
 The sketch creates and modifies variables here during runtime. The VGAX library implements a frame buffer with the SRAM that takes up 1800Kb, this leaves 200Kb for the rest of the program to run so programs must be as efficient as possible to avoid unpredictable behavior. 
 EEPROM: Long term variables (such as high score) can be stored here as the EEPROM is non volatile and may be written to during runtime unlike Flash. 
 
-## VGA Shield PCB
-The shield was designed using Fritzing. All the chip components are 1206 size, and JST connectors are used for board to case connections. All footprints were found in the fritzing library or online.
-
 ![Screenshot](digibird.jpg)
 
 ## DigiBird Game Operation
@@ -32,3 +29,12 @@ Fly through a maze of ever increasing difficulty and find friends on the way, be
 + At end screen player can push button to play again
 
 ![Screenshot](gameplay.jpg)
+
+## VGA Shield PCB
+The shield was designed using Fritzing. All the chip components are 1206 size, and JST connectors are used for board to case connections. All footprints were found in the fritzing library or online.
+
+![Screenshot](schematic.png)
+
+## 3D printed case
+The cube shaped case is effective in protecting the electronics while resembling the aesthetic of my favorite console: the GameCube. And ok it didnt turn out to be the most beautiful thing youd ever seen, but it does the job.
+![Screenshot](3d.png)
